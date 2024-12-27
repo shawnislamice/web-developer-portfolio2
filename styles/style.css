@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", serif;
+  max-width: 1600px;
+  /* margin: 0 auto; */
+}
+
+/* Shared Styles */
+.primary-btn {
+  border: none;
+  background-color: #fd6e0a;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.primary-btn:hover {
+  cursor: pointer;
+}
+
+/* Nav Related Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  justify-content: space-between;
+  /* margin: 0 100px; */
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+nav li {
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  color: #474747;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 40px;
+}
+.r {
+  color: #fd6e0a;
+}
+
+/* Header Related Styles */
+header {
+  background-color: #fff8f3;
+  /* max-width: 1600px; */
+  padding: 0 100px;
+}
+.header-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-basis: 50%; */
+}
+.hardy-img {
+  width: 450px;
+  background-image: url("../assets/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-position: center;
+  background-size: cover;
+}
+.banner-greeting {
+  color: #474747;
+  font-weight: 600;
+  font-size: 45px;
+}
+.banner-title {
+  font-weight: 800;
+  font-size: 65px;
+  color: #181818;
+  padding: 10px 0;
+}
+.banner-description {
+  color: #757575;
+}
+.header-btn {
+  padding: 15px 0;
+}
+div .header-btn button {
+  margin-right: 5px;
+}
+.header-right {
+  width: 50%;
+}
+/* About related styles  */
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff8f3;
+  margin: 100px auto;
+  text-align: center;
+}
+.about-title {
+  color: #181818;
+  font-weight: 700;
+  font-size: 35px;
+}
+.about-description {
+  padding: 30px 0;
+  width: 800px;
+  margin: 0 auto;
+  line-height: 30px;
+  color: #757575;
+}
+.about-bottom {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+}
+.name {
+  font-size: 20px;
+  color: #757575;
+}
+.name-2 {
+  color: #474747;
+  font-size: 20px;
+  padding: 5px 0;
+  font-weight: 700;
+}
+
+/* What I Do Styles  */
+.about-card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+  padding: 15px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.card-icon {
+  size: 44px;
+}
+.card-title {
+  padding: 10px 0;
+  color: #181818;
+  font-weight: 800;
+}
+.card-description {
+  text-align: start;
+  color: #757575;
+}
+.cards {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+/* About Resume Styles */
+.summary-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about-resume {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.summary-card-title {
+  font-size: 30px;
+  color: #474747;
+}
+.summary-second-title {
+  color: #474747;
+  font-size: 20px;
+  padding: 15px 0;
+}
+.summary-third-title {
+  color: #757575;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.summary-card {
+  width: 500px;
+  border-bottom: 1px dashed #d1d1d1;
+  padding-bottom: 30px;
+}
+.summary-description {
+  color: #757575;
+}
+.all-summary-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.download-btn {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+/* Footer Related Styles */
+footer {
+  background-color: #fff8f3;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 50%;
+  gap: 50px;
+  height: 700px;
+}
+.footer-img {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+  padding-top: 20px;
+}
+.footer-description {
+  color: #474747;
+  padding: 20px 0;
+}
+.footer-left {
+  width: 50%;
+}
+.footer-right {
+  width: 50%;
+}
+footer input {
+  border: none;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.footer-right > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-right > h2 {
+  padding: 20px 0;
+}
+footer input:checked {
+  border: none;
+}
+.message {
+  padding: 20px;
+  border: none;
+}
+footer input::placeholder {
+  color: #757575;
+}
